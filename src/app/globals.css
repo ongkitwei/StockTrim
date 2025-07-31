@@ -2,3 +2,7 @@
 @plugin "daisyui" {
   themes: acid --default, dark --prefersdark;
 }
+
+@theme inline {
+  --font-bungee: var(--font-bungee);
+}

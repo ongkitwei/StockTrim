@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchInput({ getTickerSearch, value }) {
   return (
-    <label className="input rounded-md w-[60%]">
+    <label className="input rounded-md w-[60%] border border-b-2 shadow-md">
       <svg
         className="h-[1em] opacity-50"
         xmlns="http://www.w3.org/2000/svg"
